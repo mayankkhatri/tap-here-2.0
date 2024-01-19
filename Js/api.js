@@ -5,8 +5,17 @@ var urlString = window.location.href;
 // Use a regular expression to extract the page name after the last '/'
 var match = urlString.match(/\/([^\/]+)\.html/);
 
+// Get the current URL
+var currentUrl = window.location.href;
+
+// Split the URL by "/" to get an array of parts
+var urlParts = currentUrl.split("/");
+
+// Get the last part of the URL, which should be the page name
+var pageName = urlParts[urlParts.length - 1];
+
 // Check if there is a match and extract the page name
-var slug = match ? match[1] : null;
+var slug = match ? match[1] : pageName;
 
 // Now, 'pageName' contains the page name
 console.log(slug);
