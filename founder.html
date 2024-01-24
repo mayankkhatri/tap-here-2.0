@@ -203,15 +203,17 @@
           class="arrow-down-dm"
         />
         <h4>Get all your queries answered by me 👇🏻</h4>
-        <form action="" name="dm-form" netlify>
-          <input class="form-field" type="text" placeholder="Name" required />
+        <form action="" name="dm-form" method="POST" data-netlify="true">
+          <input name="name" class="form-field" type="text" placeholder="Name" required />
           <input
+            name = "phone"
             class="form-field"
             type="text"
             placeholder="Phone Number"
             required
           />
           <input
+            name ="message"
             class="form-field message"
             type="text"
             placeholder="Type Your Message Here"
