@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Founder</title>
+    <link rel="stylesheet" href="styles/pages.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i.postimg.cc/kXqQkTLj/removed-bg-3.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
+    />
+  </head>
+  <body>
+    <!--!submit cards  -->
+    <div class="submit-card">
+      <div class="cross"><ion-icon name="close-outline"></ion-icon></div>
+      <div class="success-sign">
+        <ion-icon name="checkmark-circle-outline"></ion-icon>
+      </div>
+      <h4 class="submit-text">Booked Successfully</h4>
+      <h5 class="submit-text">
+        <ion-icon class="wp-logo" name="logo-whatsapp"></ion-icon>Check WhatsApp
+        for Payment Link
+      </h5>
+    </div>
+    <!--  -->
+    <main>
+      <!--? Checkout Cards  -->
+      <!--todo Webinar Chekout  -->
+      <div class="checkout-webinar">
+        <img
+          src="https://i.postimg.cc/8CVzqhYf/Untitled-design-10.png"
+          class="arrow-down"
+        />
+        <div class="specs" id="web-specs">Loading</div>
+        <div class="webinar-description" id="web-desc">Loading!!</div>
+        <div class="remove-signup">
+          <h3 class="review-title">Reviews</h3>
+          <div class="reviews" id="web-review">Loading!!</div>
+          <a class="register-btn"
+            ><div class="price-wrap" style="font-family: Roboto">
+              <span>Book Now For ₹</span><span id="webinar-price">199</span>
+            </div></a
+          >
+        </div>
+        <div class="signup-webinar" style="display: none">
+          <div class="timing">
+            <span
+              >Webinar Timing: <span id="webinar-date">6 June</span>/<span
+                id="webinar-time"
+                >7:30PM</span
+              ></span
+            >
+          </div>
+          <form class="webinar-signup-form">
+            <input name="clientname" type="text" placeholder="Name" required />
+            <input
+              name="phonenumber"
+              type="number"
+              placeholder="Phone"
+              required
+            />
+            <input
+              name="creatorname"
+              id="web-cr-nm"
+              style="display: none"
+              type="text"
+              placeholder="creator"
+              value=""
+            />
+            <input
+              name="ordername"
+              style="display: none"
+              type="text"
+              placeholder="service"
+              value="Webinar"
+            />
+            <input
+              name="price"
+              id="web-prc"
+              style="display: none"
+              type="text"
+              placeholder="price"
+              value=""
+            />
+            <input class="webinar-submit" type="submit" value="Register" />
+          </form>
+        </div>
+      </div>
+      <!--todo Personal Call  -->
+      <div class="checkout-personal">
+        <img
+          src="https://i.postimg.cc/8CVzqhYf/Untitled-design-10.png"
+          class="arrow-down-per"
+        />
+        <div class="specs-per" id="per-specs">Loading!!</div>
+        <div class="personal-description" id="pers-desc">Loading!!</div>
+        <div class="rem-pers">
+          <h3 class="review-title">Reviews</h3>
+          <div class="reviews-personal" id="pers-review">Loading!!</div>
+          <a class="register-btn"
+            ><div class="price-wrap-per" style="font-family: Roboto">
+              <span>Book Now For ₹</span><span id="personal-price">999</span>
+            </div></a
+          >
+        </div>
+        <div class="signup-webinar signup-personal" style="display: none">
+          <form class="personal-signup-form">
+            <input name="clientname" type="text" placeholder="Name" required />
+            <input
+              name="phonenumber"
+              type="number"
+              placeholder="Phone"
+              required
+            />
+            <input
+              name="creatorname"
+              id="per-cr-nm"
+              style="display: none"
+              type="text"
+              placeholder="creator"
+              value=""
+            />
+            <input
+              name="ordername"
+              style="display: none"
+              type="text"
+              placeholder="service"
+              value="Personal Call"
+            />
+            <input
+              name="price"
+              id="per-prc"
+              style="display: none"
+              type="text"
+              placeholder="Call Price"
+              value=""
+            />
+            <input
+              class="webinar-submit personal-submit"
+              type="submit"
+              value="Register"
+              value=""
+            />
+          </form>
+        </div>
+      </div>
+      <!--todo Message Checkout  -->
+      <div class="dm-checkout">
+        <img
+          src="https://i.postimg.cc/8CVzqhYf/Untitled-design-10.png"
+          class="arrow-down-dm"
+        />
+        <h4>Get all your queries answered by me 👇🏻</h4>
+        <form class="dm-form">
+          <input
+            name="clientname"
+            class="form-field"
+            type="text"
+            placeholder="Name"
+            required
+          />
+          <input
+            name="phonenumber"
+            class="form-field"
+            type="number"
+            placeholder="Phone Number"
+            required
+          />
+          <input
+            name="price"
+            class="form-field message"
+            type="text"
+            placeholder="Type Your Message Here"
+            required
+          />
+          <input
+            name="ordername"
+            style="display: none"
+            type="text"
+            placeholder="service"
+            value="DM"
+          />
+          <input
+            name="creatorname"
+            id="dm-cr-nm"
+            style="display: none"
+            type="text"
+            placeholder="creator"
+            value=""
+          />
+          <button class="submit-dm" type="submit">Send Message For Free</button>
+        </form>
+      </div>
+      <!--! Cards   -->
+      <div class="bottom-callout">
+        <div class="arrow-circle arrow-up bounce"></div>
+        <img
+          class="arrow-up bounce"
+          src="https://i.postimg.cc/8CVzqhYf/Untitled-design-10.png"
+        />
+        <img
+          class="shake"
+          src="https://i.postimg.cc/pL7kjkS5/Untitled-design-7.png"
+          alt=""
+        />
+        <h4>Talk to Me on a Personal Call</h4>
+      </div>
+      <!--? Ask Me   -->
+      <div class="ask-me">
+        <img src="https://i.postimg.cc/SKpLW9T7/QNA.png" />
+      </div>
+      <!--? Header  -->
+      <header>
+        <a href="https://tap-here.in">Tap Here</a>
+        <img
+          class="dm-box"
+          src="https://i.postimg.cc/k4yKvVF5/message-icon-6.png"
+          alt="priority-dm"
+        />
+      </header>
+      <!--? About Card -->
+      <section class="about-card">
+        <div id="dp" class="dp">
+          <img
+            id="dp-img"
+            src="https://i.postimg.cc/8k0C0ST8/founder2.jpg"
+            alt="creator-photo"
+          />
+        </div>
+        <div class="creator-details">
+          <div class="name-star">
+            <h1 id="creatorName" class="creator-name">Mayank Khatri</h1>
+            <img
+              class="ver-star"
+              src="https://i.postimg.cc/4320WyV2/image-2-1.png"
+            />
+          </div>
+          <p id="creatorAbout">
+            I help you make your reels go viral with my 5 years of experience in
+            the field
+          </p>
+          <a href="#about" class="about-me-btn">About me</a>
+        </div>
+        <div class="rating">
+          <div class="rating-star">
+            <img
+              src="https://i.postimg.cc/MKp8G59z/image.png"
+              alt="rating-icon"
+            />
+            <p id="rating-num">Rating</p>
+          </div>
+
+          <div class="numHelped">
+            <img
+              src="https://i.postimg.cc/LsFPqgpN/image.png"
+              alt="helped-icon"
+            />
+            <p id="num-helped">Helped</p>
+          </div>
+          <div class="category">
+            <img
+              src="https://i.postimg.cc/kX8K7yrB/image.png"
+              alt="category-icon"
+            />
+            <p id="creator-category">Category</p>
+          </div>
+        </div>
+      </section>
+      <!--? Social Links   -->
+      <section class="social-links">
+        <a href="" target="_blank" id="insta" class="social-icon"
+          ><img
+            src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png"
+            alt="social media icon"
+        /></a>
+        <a href="" target="_blank" id="twitter" class="social-icon"
+          ><img
+            src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705622400&semt=ais"
+            alt="social media icon"
+        /></a>
+        <a href="" target="_blank" id="snap" class="social-icon"
+          ><img
+            src="https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo"
+            alt="social media icon"
+        /></a>
+        <a href="" target="_blank" id="youtube" class="social-icon"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/YouTube_social_red_square_%282017%29.svg/2048px-YouTube_social_red_square_%282017%29.svg.png"
+            alt="social media icon"
+        /></a>
+      </section>
+      <section class="extra-link" id="extra-link">
+        <a class="extra-link-a" href="">
+          <div>
+            <img src="https://i.postimg.cc/cLSLXYmj/xtasy-icon.png" />
+            <p>Loading Link...</p>
+          </div>
+        </a>
+      </section>
+      <section class="webinar">
+        <!--? Group Calls -->
+        <div class="site-title">Talk to Me</div>
+        <a href="#">
+          <div class="webinar-main">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif"
+              id="webinar-image"
+              alt="webinar-thumbnail"
+            />
+          </div>
+        </a>
+        <!--? Personal Call  -->
+        <div class="personal-consult">
+          <div class="personal-btn-cont">
+            <img
+              src="https://i.postimg.cc/QdqHQpJH/vc-icon.png"
+              alt="call icon"
+            />
+            <h3 class="personal-btn">Book a Personal Call with Me</h3>
+          </div>
+        </div>
+      </section>
+      <section class="products-sec">
+        <h3 class="site-title">Store</h3>
+        <div class="products" id="products">
+          <div class="product">
+            <a class="prod-link" href="#">
+              <img class="prod-img" src="" />
+              <span href="#" class="prod-name">Loading...</span>
+            </a>
+          </div>
+          <div class="product">
+            <a class="prod-link" href="#">
+              <img class="prod-img" src="" />
+              <span href="#" class="prod-name">Loading...</span>
+            </a>
+          </div>
+          <div class="product">
+            <a class="prod-link" href="#">
+              <img class="prod-img" src="" />
+              <span href="#" class="prod-name">Loading...</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="latest-yt">
+        <div class="yt-video">
+          <h3 class="site-title">Latest</h3>
+          <iframe src="" id="latest-yt"></iframe>
+        </div>
+      </section>
+      <section id="about" class="about-me">
+        <h3 class="site-title">About Me</h3>
+        <div class="dp-sec"><img id="dp-sec" src="" alt="creator photo" /></div>
+        <p id="lower-desc">Loading...</p>
+        <div class="about-buttons">
+          <a href="#" class="hire">Hire me for a Project</a>
+          <div class="about-icons">
+            <a href="" target="_blank" id="insta" class="social-icon-about"
+              ><img
+                src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-512.png"
+                alt=""
+            /></a>
+            <a href="" target="_blank" id="twitter" class="social-icon-about"
+              ><img
+                src="https://play-lh.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk"
+                alt=""
+            /></a>
+            <a href="" target="_blank" id="snap" class="social-icon-about"
+              ><img
+                src="https://play-lh.googleusercontent.com/KxeSAjPTKliCErbivNiXrd6cTwfbqUJcbSRPe_IBVK_YmwckfMRS1VIHz-5cgT09yMo"
+                alt=""
+            /></a>
+            <a href="" target="_blank" id="youtube" class="social-icon-about"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/YouTube_social_red_square_%282017%29.svg/2048px-YouTube_social_red_square_%282017%29.svg.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <a href="https://tap-here.in">
+          <h1>Make Your Tap-Here Page Now</h1>
+        </a>
+      </footer>
+    </main>
+    <!-- Flickity -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+    <!-- Ion Icons  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Custom Scripts -->
+    <script src="Js/api.js"></script>
+    <script src="Js/clicks.js"></script>
+    <script src="Js/forms.js"></script>
+  </body>
+</html>

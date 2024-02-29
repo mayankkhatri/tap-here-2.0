@@ -1,0 +1,162 @@
+Webinar Images (checkout-webinar>specs )
+
+<div class="spec">
+            <img
+              id="webinar-spec-one"
+              src="https://www.feedough.com/wp-content/uploads/2020/02/webinar.webp"
+            />
+          </div>
+          <div class="spec">
+            <img
+              src="https://mukayese.com/img/blog/2023/09/01/webinar-nedir-ne-ise-yarar.jpg"
+            />
+          </div>
+          <div class="spec">
+            <img
+              src="https://www.uctoday.com/wp-content/uploads/2022/03/What-is-a-webinar.jpg"
+            />
+          </div>
+
+Webinar Description (checkout-webinar > webinar-description)
+
+<p class="web-description">
+            Here Goes a short description of your webinar in which you can
+            describe the goal of your webinar and what value you bring to the
+            table for your followers
+          </p>
+          <div class="features">
+            <h3 class="feature">🔥Exclusive Content</h3>
+            <h3 class="feature">📈Guaranteed Growth</h3>
+            <h3 class="feature">☕Get Free Coffee</h3>
+            <h3 class="feature">🔍Best Tools</h3>
+          </div>
+
+Webinar Reviews (checkout-webinar > reviews)
+
+<div class="review">
+              <p>
+                "Helped me with my life man! thanks for the life changing advice
+                and guidance. I owe you one for sure." - Sandeep Gandhi
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "The webinar! it exceeded all my expectations. The content was
+                presented in very a captivating and engaging manner. Highly
+                recommended" - Reshama Aggarwal
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "This webinar was a game-changer! The presenter dove deep into
+                the subject matter, providing a level of detail that I hadn't
+                encountered in other online events." - Ashish Mathur
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "Chill Webinar, but Seriously Informative. The speaker's
+                expertise and passion for the topic were evident, making the
+                entire experience enjoyable. The platform was very user-friendly
+                " - Aditya Sharma
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "Left the session with a clear understanding of how to apply the
+                concepts discussed. The presentation was well-paced, and the
+                speaker's ability to simplify complex ideas was commendable." -
+                Rajesh Singh
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "The host was like your cool friend who knows their stuff but
+                doesn't make it sound boring. It felt more like a hangout
+                session than a lecture. They sprinkled in some funny anecdotes,
+                Loved it." - Aakash Chaudhary
+              </p>
+            </div>
+            <div class="review">View All Reviews</div>
+
+Personal Images  (checkout-personal > specs-per)
+
+<div class="spec">
+            <img
+              id="webinar-spec-one"
+              src="https://www.feedough.com/wp-content/uploads/2020/02/webinar.webp"
+            />
+          </div>
+          <div class="spec">
+            <img
+              src="https://mukayese.com/img/blog/2023/09/01/webinar-nedir-ne-ise-yarar.jpg"
+            />
+          </div>
+          <div class="spec">
+            <img
+              src="https://www.uctoday.com/wp-content/uploads/2022/03/What-is-a-webinar.jpg"
+            />
+          </div>
+
+Personal Description (checkout-personal > personal-description)
+
+<p class="web-description">
+            Here Goes a short description of your webinar in which you can
+            describe the goal of your webinar and what value you bring to the
+            table for your followers
+          </p>
+          <div class="features">
+            <h3 class="feature">🔥Exclusive Content</h3>
+            <h3 class="feature">📈Guaranteed Growth</h3>
+            <h3 class="feature">☕Get Free Coffee</h3>
+            <h3 class="feature">🔍Best Tools</h3>
+          </div>
+
+Personal Reviews (checkout-personal > reviews-personal)
+
+<div class="review">
+              <p>
+                "Helped me with my life man! thanks for the life changing advice
+                and guidance. I owe you one for sure." - Sandeep Gandhi
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "The webinar! it exceeded all my expectations. The content was
+                presented in very a captivating and engaging manner. Highly
+                recommended" - Reshama Aggarwal
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "This webinar was a game-changer! The presenter dove deep into
+                the subject matter, providing a level of detail that I hadn't
+                encountered in other online events." - Ashish Mathur
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "Chill Webinar, but Seriously Informative. The speaker's
+                expertise and passion for the topic were evident, making the
+                entire experience enjoyable. The platform was very user-friendly
+                " - Aditya Sharma
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "Left the session with a clear understanding of how to apply the
+                concepts discussed. The presentation was well-paced, and the
+                speaker's ability to simplify complex ideas was commendable." -
+                Rajesh Singh
+              </p>
+            </div>
+            <div class="review">
+              <p>
+                "The host was like your cool friend who knows their stuff but
+                doesn't make it sound boring. It felt more like a hangout
+                session than a lecture. They sprinkled in some funny anecdotes,
+                Loved it." - Aakash Chaudhary
+              </p>
+            </div>
+            <div class="review">View All Reviews</div>
+
