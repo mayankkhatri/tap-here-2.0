@@ -521,7 +521,7 @@ footer {
   border-radius: 1rem 1rem 0 0;
   bottom: -300vh;
   transition: bottom 0.7s ease-out;
-  max-height: 98vh;
+  max-height: 92vh;
   overflow-y: scroll;
 }
 
