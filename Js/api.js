@@ -2,7 +2,7 @@
 
 var urlString = window.location.href;
 // Use a regular expression to extract the page name after the last '/'
-var match = urlString.match(/\/([^\/]+)\.html/);
+var match = urlString.match(/\/([^\/]+)\?/);
 
 // Get the current URL
 var currentUrl = window.location.href;
