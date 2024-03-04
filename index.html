@@ -1,9 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SNN9YKKL7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4SNN9YKKL7');
+    </script>
+    
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Create Your Tap-here Link</title>
+    <!--! Styles  -->
+    <link rel="stylesheet" href="styles.css" />
+    <!--! Site Icon  -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://i.postimg.cc/kXLtDLwj/tapherelogo.png"
+    />
+    
   </head>
-  <body></body>
+  <body>
+    <!--? Header  -->
+    <header>
+      <h1>
+        Create Your
+        <span class="blue-tap"
+          ><a href="#link" class="blue-tap">Tap-Here</a></span
+        >
+        Link
+      </h1>
+    </header>
+    <!--? Links That pay -->
+    <section id="pay">
+      <!--* Main Head  -->
+      <h2 class="head">Links That Pay</h2>
+      <h3 class="sub-head">
+        Monetize Your Bio & <br />
+        Make Money Like Never Before.
+      </h3>
+      <!--* Illustrations  -->
+      <div class="cards">
+        <div class="card">
+          <img src="https://i.postimg.cc/RhKLXfSt/videocall.webp" alt="" />
+          <div class="card-text">
+            <h4>Personal Video Calls</h4>
+            <p>
+              Let You Fans Pay for Personal Video Calls at the Rates you Decide
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-text">
+            <h4>Special Coffee Dates</h4>
+            <p>
+              Let Your Fans Take You on Coffee Dates at the Places and Rates You
+              Decide
+            </p>
+          </div>
+          <img src="https://i.postimg.cc/FR2xyG4m/coffee.webp" alt="" />
+        </div>
+        <div class="card">
+          <img src="https://i.postimg.cc/mZHjLxYr/affiliate.webp" alt="" />
+          <div class="card-text">
+            <h4>Affiliated Products Links</h4>
+            <p>
+              Share The Products You Use & Recommend and Get Commision Every
+              Time Someone Buys it
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-text">
+            <h4>Subscriber Only Content</h4>
+            <p>
+              Share Content Exclusive to Paid Subscribers that Pay a Monthly
+              Subscription Fee
+            </p>
+          </div>
+          <img
+            style="border-radius: 50%"
+            src="https://i.postimg.cc/76CVJdjm/exclusive.webp"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <section id="buy">
+      <h2 class="head">Get Your Link</h2>
+      <h3 class="sub-head">
+        Premium Links Only For
+        <span style="font-size: 1.8rem; font-weight: 600">Elites</span>
+        <br />
+        No Freebies.
+      </h3>
+      <h4 class="price">₹499<span style="font-size: 1.2rem">/Year</span></h4>
+      <div id="link">
+        <a class="create">Create Your Tap-Here Link Now</a>
+        <p class="dm" style="margin-top: 1rem"></p>
+      </div>
+    </section>
+    <script>
+      var buyButton = document.querySelector("#link");
+      var dmMsg = document.querySelector(".dm");
+      buyButton.addEventListener("click", dmUs);
+      function dmUs() {
+        dmMsg.innerHTML = `Dm us on instagram <a href="https://www.instagram.com/tap_here.in/">@tap_here.in</a>`;
+      }
+    </script>
+  </body>
 </html>
