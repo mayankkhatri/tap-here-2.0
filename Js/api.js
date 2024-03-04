@@ -93,6 +93,9 @@ fetch(graphCMSEndpoint, {
     const productsHtml = pageData.productsHtml;
     const belowDescription = pageData.lowerDescription;
     const extralinkhtml = pageData.extraLinkHtml;
+    const webinarDate = pageData.webinarDate;
+    const webinarTime = pageData.webinarTime;
+
 
     //todo Update page with the data
     const crname = document.getElementById("creatorName");
