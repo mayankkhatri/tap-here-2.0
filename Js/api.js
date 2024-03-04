@@ -50,6 +50,8 @@ const graphqlQuery = `
       productsHtml
       lowerDescription
       extraLinkHtml
+      webinarDate
+      webinarTime
 
     }
   }
@@ -121,6 +123,10 @@ fetch(graphCMSEndpoint, {
     webinarSpec.innerHTML = webinarImages;
     const webinarImage = document.getElementById("webinar-image");
     webinarImage.src = webinarImageLink;
+    const webDate = document.getElementById("webinar-date");
+    webDate.innerText = webinarDate;
+    const webTime = document.getElementById("webinar-time");
+    webTime.innerText = webinarTime;
     const extralinkSec = document.getElementById("extra-link");
     extralinkSec.innerHTML = extralinkhtml;
     // ?
